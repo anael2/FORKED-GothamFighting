@@ -15,12 +15,12 @@ function App() {
   const [persoOne, setPersoOne] = useState({
     id: '',
     name:'Select your champ',
-    image:'/images/pointMystere.jpg'
+    image:'/images/logoGotham.svg'
   });
   const [persoTwo, setPersoTwo] = useState({
     id: '',
     name:'Select your opponent',
-    image:'/images/pointMystere.jpg'
+    image:'/images/logoGotham.svg'
   });
 
   const [apiCharacters, setApiCharacters] = useState([]);
