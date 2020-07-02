@@ -49,10 +49,10 @@ function PersonnageList({ persoOne, setPersoOne, persoTwo, setPersoTwo, apiChara
             <Grid container justify="space-between" xs={5}>
               <Grid container justify="space-between">
                 <Grid container xs={6} className="selectItem-One">
-                  <p className="playerButton selectItem-One" onClick={() => updatePlayerOne(character.id, character.nameCharacter, character.urlImage)}>Player 1</p>
+                  <p className="playerButton selectItem-One" onClick={() => updatePlayerOne(character.id, character.nameCharacter, character.urlImage)}>Select as Champ</p>
                 </Grid>
                 <Grid container justify="flex-end" xs={6} className="selectItem-Two">
-                  <p className="playerButton selectItem-Two" onClick={() => updatePlayerTwo(character.id, character.nameCharacter, character.urlImage)} >Player 2</p>
+                  <p className="playerButton selectItem-Two" onClick={() => updatePlayerTwo(character.id, character.nameCharacter, character.urlImage)} >Select as Opponent</p>
                 </Grid>
               </Grid>
             </Grid>
