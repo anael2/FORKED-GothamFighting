@@ -65,7 +65,6 @@ class PersonnageDetails extends Component {
                 <Grid container sm={12} justify="space-between">
                     <Grid container item sm={12} md={12} lg={12} justify="space-between">
                         <Logo />
-                        <ButtonSettings />
                     </Grid>
                 </Grid>
 
