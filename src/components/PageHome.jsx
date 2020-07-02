@@ -20,9 +20,6 @@ class PageHome extends React.Component {
                     <Grid container item xs={1}>
                         <Logo />
                     </Grid>
-                    <Grid>
-                        <ButtonSettings />              
-                    </Grid>
                 </Grid>
                 <Grid container direction="column">
                     <Grid container justify="center">
