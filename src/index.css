@@ -208,11 +208,11 @@ img {
   min-width: 35%;
   background: linear-gradient(
     276deg, 
-rgb(179, 179, 65),
-rgb(255, 255, 0),
-rgb(158, 180, 175), 
-rgb(255, 255, 0), 
-rgb(179, 179, 65)
+    rgb(8, 0, 0),
+    rgb(88, 78, 40),
+    rgb(158, 180, 175),
+    rgb(88, 78, 78),
+    rgb(8, 0, 0)
 );
   background-size: 200% auto;
   border-style: solid;
@@ -229,11 +229,11 @@ rgb(179, 179, 65)
   object-fit: cover;
   background: linear-gradient(
     276deg,
-    rgb(87, 14, 14),
-    rgb(185, 40, 40),
+    rgb(8, 0, 0),
+    rgb(88, 78, 40),
     rgb(158, 180, 175),
-    rgb(185, 40, 40),
-    rgb(87, 14, 14)
+    rgb(88, 78, 78),
+    rgb(8, 0, 0)
   );
   background-size: 200% auto;
   border-style: solid;
