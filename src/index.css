@@ -120,6 +120,10 @@ img {
   animation: AnimationName 5s ease infinite;
 }
 
+.Character {
+  margin-top: 5vh;
+}
+
 .animated-background {
   background: linear-gradient(276deg, rgb(255, 255, 0), rgb(158, 180, 175));
   background-size: 200% auto;
@@ -171,14 +175,13 @@ img {
 }
 
 .playerButton {
-  height: 2.5vh;
-  border-radius: 10%;
+  height: 3vh;
   font-family: PoliceTxt !important;
-  font-size: 1.8vh;
+  font-size: 2vh;
   text-align: center;
-  border-style: solid;
+  font-weight: 700;
   width: 90%;
-  padding-top: 0.1em;
+  padding: 0.1em;
 }
 
 /*BOUTONS*/
@@ -208,11 +211,11 @@ img {
   min-width: 35%;
   background: linear-gradient(
     276deg, 
-rgb(179, 179, 65),
-rgb(255, 255, 0),
-rgb(158, 180, 175), 
-rgb(255, 255, 0), 
-rgb(179, 179, 65)
+    rgb(8, 0, 0),
+    rgb(88, 78, 40),
+    rgb(158, 180, 175),
+    rgb(88, 78, 78),
+    rgb(8, 0, 0)
 );
   background-size: 200% auto;
   border-style: solid;
@@ -229,11 +232,11 @@ rgb(179, 179, 65)
   object-fit: cover;
   background: linear-gradient(
     276deg,
-    rgb(87, 14, 14),
-    rgb(185, 40, 40),
+    rgb(8, 0, 0),
+    rgb(88, 78, 40),
     rgb(158, 180, 175),
-    rgb(185, 40, 40),
-    rgb(87, 14, 14)
+    rgb(88, 78, 78),
+    rgb(8, 0, 0)
   );
   background-size: 200% auto;
   border-style: solid;
@@ -308,13 +311,13 @@ rgb(179, 179, 65)
 }
 
 .winner {
-  color: lime;
+  color: yellow;
   text-shadow: 1px 1px 2px black;
   font-family: PoliceTxt;
 }
 
 .loser {
-  color: red;
+  color: white;
   text-shadow: 1px 1px 2px black;
   font-family: PoliceTxt;
 }

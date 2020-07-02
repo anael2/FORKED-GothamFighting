@@ -184,7 +184,7 @@ function CombatTest(props) {
                         <Logo />
                     </Grid>
                 </Grid>
-                <Grid item sm={9} md={5} lg={5} className="text-center">
+                <Grid item sm={11} md={11} lg={11} className="text-center">
                     <h3 id="arena-name" className="fight-title text-center capitalize">{arena[0]}</h3>
                 </Grid>
             </Grid>
