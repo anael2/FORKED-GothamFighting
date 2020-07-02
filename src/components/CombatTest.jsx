@@ -187,9 +187,6 @@ function CombatTest(props) {
                 <Grid item sm={9} md={5} lg={5} className="text-center">
                     <h3 id="arena-name" className="fight-title text-center capitalize">{arena[0]}</h3>
                 </Grid>
-                <Grid item sm={1} md={0} lg={0} alignItems="flex-end" justify="flex-end" className="button-fight">
-                    <ButtonSettings />
-                </Grid>
             </Grid>
 
             <Grid item sm={10} md={4} lg={4} className="text-center">
